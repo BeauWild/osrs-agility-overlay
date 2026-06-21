@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>OSRSAgilityOverlay</AssemblyName>
+    <Version>0.1.0</Version>
+    <FileVersion>0.1.0.0</FileVersion>
+    <InformationalVersion>v0.1.0</InformationalVersion>
+    <Authors>Beau Wild</Authors>
+    <Description>Windows visual timing overlay for Old School RuneScape agility practice.</Description>
+  </PropertyGroup>
+
+  <!-- Important:
+       SDK-style projects include every .cs file under this folder by default.
+       Exclude the test project folder so xUnit test files do not compile into the app. -->
+  <ItemGroup>
+    <Compile Remove="OSRSAgilityOverlay.Tests\**\*.cs" />
+    <None Include="OSRSAgilityOverlay.Tests\**\*" />
+  </ItemGroup>
+</Project>

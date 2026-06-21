@@ -1,0 +1,76 @@
+{
+  "TargetWindowTitleContains": "RuneLite",
+  "AnchorToRuneLiteWindow": true,
+  "OverlayOpacity": 100,
+  "MarkerNumberSize": 12,
+  "TickSeconds": 0.6,
+  "GlobalClickExtraRadius": 10,
+  "WorldLagMs": 28,
+  "QueueSafetyMs": 15,
+  "TickOffsetSeconds": 0,
+  "ShowInfoOverlay": true,
+  "MinimalMode": false,
+  "DebugTimingLogEnabled": false,
+  "TickSyncEnabled": false,
+  "TickSyncAreaRelativeToRuneLite": true,
+  "TickSyncAreaX": 0,
+  "TickSyncAreaY": 0,
+  "TickSyncAreaWidth": 0,
+  "TickSyncAreaHeight": 0,
+  "Markers": [
+    {
+      "Name": "Obstacle 1",
+      "X": 2364,
+      "Y": 1646,
+      "Radius": 16,
+      "DelayTicks": 18
+    },
+    {
+      "Name": "Obstacle 2",
+      "X": 3090,
+      "Y": 567,
+      "Radius": 16,
+      "DelayTicks": 9
+    },
+    {
+      "Name": "Obstacle 3",
+      "X": 1757,
+      "Y": 770,
+      "Radius": 16,
+      "DelayTicks": 14
+    },
+    {
+      "Name": "Obstacle 4",
+      "X": 1756,
+      "Y": 770,
+      "Radius": 16,
+      "DelayTicks": 11
+    },
+    {
+      "Name": "Obstacle 5",
+      "X": 1234,
+      "Y": 1377,
+      "Radius": 16,
+      "DelayTicks": 5
+    },
+    {
+      "Name": "Obstacle 6",
+      "X": 822,
+      "Y": 2026,
+      "Radius": 16,
+      "DelayTicks": 7
+    },
+    {
+      "Name": "Obstacle 7",
+      "X": 1850,
+      "Y": 1186,
+      "Radius": 16,
+      "DelayTicks": 12
+    }
+  ],
+  "HasTickSyncArea": true,
+  "MarkerTickTotal": 76,
+  "BestPossibleTicks": 76,
+  "BestPossibleSeconds": 45.6,
+  "TickSyncSinglePixelMode": true
+}
